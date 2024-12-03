@@ -78,8 +78,8 @@
 }
 .banner .content .model {
     background-image: url(https://i.pinimg.com/736x/0d/f5/a1/0df5a1ee3b857c5a9aeb9f022d7d4da7.jpg);
-    width: 100vw;
-    height: 100vh; /* Full viewport height */
+    width: 100%;
+    height: 100%; /* Full viewport height */
     position: absolute;
     top: 0; /* Cover from the top */
     left: 0;
