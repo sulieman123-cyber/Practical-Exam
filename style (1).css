@@ -76,18 +76,19 @@
 .banner .content h2{
     font-size: 3em;
 }
-.banner .content .model{
+.banner .content .model {
     background-image: url(https://i.pinimg.com/736x/69/d3/f8/69d3f8f29daecfc35abc865d40158ca1.jpg);
     width: 100%;
-    height: 100%;
+    height: 100vh; /* Full viewport height */
     position: absolute;
-    bottom: 0;
+    top: 0; /* Cover from the top */
     left: 0;
-    background-size: auto 130%;
+    background-size: cover; /* Ensures the image covers the entire area */
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center center; /* Center the image */
     z-index: 1;
 }
+
 @media screen and (max-width: 1023px) {
     .banner .slider{
         width: 160px;
